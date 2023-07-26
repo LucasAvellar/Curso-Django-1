@@ -1,15 +1,8 @@
-{% include 'Recipes/partials/head.html'  %}
-<body>
-    <header class="main-header-container"></header>
-    <div class="mais-header container">
-        <i class="fa-solid fa-code"></i>
-        <h1>
-            <a href="/">
+{% include 'recipes/partials/head.html' %}
 
-                <span> {{name}}</span>
-            </a>
-        </h1>
-    </div>
+<body>
+    {% include 'recipes/partials/header.html' %}
+    {% include 'recipes/partials/search.html' %}
 </body>
 
 </html>
